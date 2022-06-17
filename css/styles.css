@@ -660,7 +660,7 @@ section.testimonials {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-	width: 25%;
+	width: 50%;
 
 }
 .pricing .item:hover {
