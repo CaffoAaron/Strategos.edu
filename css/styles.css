@@ -193,6 +193,10 @@ header .nav > li > a {
 	padding: 0 15px;
 	text-shadow:none;
 }
+.embed-responsive-item{
+	width: 900px;
+	height: 500px;
+}
 header .navbar {
 	margin-bottom:0;
 }
@@ -581,12 +585,16 @@ ul li figcaption span{
 	right: 60px;
 }
 
-@media screen and (max-width: 31.5em) {
+@media screen and (max-width: 41.5em) {
 	.grid {
 		padding: 10px 10px 10px 10px;
 	}
 	.grid li {
 		width: 100%;
+	}
+	.embed-responsive-item{
+		width: 300px;
+		height: 200px;
 	}
 }
 
