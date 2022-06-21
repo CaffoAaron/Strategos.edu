@@ -170,16 +170,16 @@ header .topbar .btn {
 	font-size:19px;
 	margin-right: 2px;
 	text-shadow:none;
-	-moz-box-shadow: 0 0 3px rgba(15,84,150,0.80);
-	-webkit-box-shadow: 0 0 3px rgba(15,84,150,0.80);
-	box-shadow: 0 0 3px rgba(15,84,150,0.80);
+	-moz-box-shadow: #990b09;
+	-webkit-box-shadow:  #990b09;
+	box-shadow:  #990b09;
     padding: 8px 7px;
 }
 header .topbar .btn i{
     margin-right: 10px;
 }
 header .topbar .btn:hover {
-	background:#0095fc;
+	background:#990b09;
 }
 header .topbar .sb{
 	padding: 0
