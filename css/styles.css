@@ -822,7 +822,7 @@ section.testimonials {
     padding-top: 90px;
 }
 .information h1{
-    color: #263d5a;
+    color: #990b09;
     font-weight: normal;
 }
 .information img{
@@ -840,13 +840,13 @@ section.testimonials {
     border-color: transparent;
 }
 .information .accordion-toggle{
-    color: #1968b5;
+    color: #990b09;
     font-size: 16px;
     line-height: 24px;
     font-weight: bold;
 }
 .information .accordion-toggle i{
-    color: #b3b3b3;
+    color: #990b09;
     float: right;
     line-height: 24px;
 }
@@ -854,7 +854,7 @@ section.testimonials {
     color: #1968b5;
 }
 .information .accordion-inner p{
-    color: #818181;
+    color: black;
     font-size: 13px;
     line-height: 24px;
     padding: 10px;
