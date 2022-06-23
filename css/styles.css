@@ -639,7 +639,7 @@ section.testimonials {
 }
 .testimonials .featurette .featurette-user{
 	color: #263d5a;
-	font-size:1.4em;
+	font-size:2.4em;
 	text-transform:uppercase;
 }
 
@@ -677,9 +677,9 @@ section.testimonials {
 	width: 50%;
 
 }
-.pricing .item:hover {
-    margin-top: -20px;
-}
+/*.pricing .item:hover {*/
+/*    margin-top: -20px;*/
+/*}*/
 .pricing .item .header {
 	background: none repeat scroll 0 0 #230706;
     padding-bottom: 10px;
