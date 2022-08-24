@@ -389,7 +389,9 @@ section.sliderbox {
 }
 
 
-
+.imagenResponsive {
+	max-width: 800px;
+}
 
 /* Features ------------------------------------*/
 .features {
@@ -599,6 +601,9 @@ ul li figcaption span{
 }
 
 @media (max-width: 768px) {
+	.imagenResponsive {
+		max-width: 300px;
+	}
 	.embed-responsive-item{
 		width: 300px;
 		height: 200px;
@@ -666,8 +671,8 @@ section.testimonials {
 }
 .pricing .item {
 	border: 1px solid #E9E9E9;
+	margin: auto;
 	background:#f6f6f6;
-	margin: 0 0 40px 0;
 	padding: 0;
 	text-align: center;
     transition: all 0.35s ease-in-out;
