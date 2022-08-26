@@ -393,6 +393,10 @@ section.sliderbox {
 	max-width: 800px;
 }
 
+.video{
+	padding-top: 80px;
+}
+
 /* Features ------------------------------------*/
 .features {
 	background: url("../img/ROJO.png") repeat transparent;
@@ -838,6 +842,7 @@ section.testimonials {
 
 /* Information ------------------------------------*/
 .information{
+	background: url("../img/ROJO.png") repeat transparent;
     padding-top: 90px;
 }
 .information h1{
@@ -885,6 +890,55 @@ section.testimonials {
 	background: #0095fc;
 }
 
+
+/* Information ------------------------------------*/
+.information2{
+	padding-top: 90px;
+}
+.information2 h1{
+	color: #990b09;
+	font-weight: normal;
+}
+.information2 img{
+	width: 100%;
+}
+.information2 .accordion-group{
+	border-color: transparent;
+}
+.information2 .accordion-heading{
+	border: 1px solid #e6e6e6;
+	border-radius: 0;
+	padding: 10px;
+}
+.information2 .accordion-inner{
+	border-color: transparent;
+}
+.information2 .accordion-toggle{
+	color: #990b09;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.information2 .accordion-toggle i{
+	color: #990b09;
+	float: right;
+	line-height: 24px;
+}
+.information2 .accordion-heading:hover .accordion-toggle i{
+	color: #1968b5;
+}
+.information2 .accordion-inner p{
+	color: black;
+	font-size: 13px;
+	line-height: 24px;
+	padding: 10px;
+}
+.information2 .accordion-toggle:hover {
+	color: #fff;
+}
+.information2 .accordion-heading:hover{
+	background: #0095fc;
+}
 
 
 /* Courses ------------------------------------*/
