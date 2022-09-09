@@ -96,7 +96,7 @@
 	            <div class="row">
 	                <div class="col-sm-12 sb">
 	                <h1><a >FFFFFFFFFFFF</a></h1>
-	                <a href="https://wa.me/51973410115" title="CTA" class="btn" target="_blank"><i class="fa fa-whatsapp"></i> Escríbenos al 973-410-115</a>
+	                <a href="https://wa.me/51973410115" title="CTA" class="btn" target="_blank" id="btn_whatsapp"><i class="fa fa-whatsapp"></i> Escríbenos al 973-410-115</a>
 	                </div>
 	            </div>
 	        </div>
@@ -1008,6 +1008,14 @@
 	<a href="#" class="scrollup"><i class="icon-up-open"></i></a>
 
 <!-- ======================= JQuery libs =========================== -->
+	<script>
+		const el =document.getElementById('btn_whatsapp');
+		if (el && el.addEventListener) {
+			el.addEventListener("click",function() {
+				window.lintrk('track', { conversion_id: 9532354  });
+			});
+		}
+	</script>
 	<script>
 		const btn = document.querySelector("form input[type=submit]");
 		if (btn && btn.addEventListener) {
