@@ -68,7 +68,12 @@
 		window._linkedin_data_partner_ids.push(_linkedin_partner_id);
 	</script>
 	<script>
-		window.lintrk('track', { conversion_id: 9250690 });
+		const btn = document.querySelector("form input[type=submit]");
+		if (btn && btn.addEventListener) {
+			btn.addEventListener("click",function() {
+				window.lintrk('track', { conversion_id: 9250690 });
+			});
+		}
 	</script>
 	<script type="text/javascript">
 	(function(l) {
